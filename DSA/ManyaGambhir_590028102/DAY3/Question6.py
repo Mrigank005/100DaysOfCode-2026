@@ -31,4 +31,7 @@ def count_occurrences(arr, target):
             right = mid - 1
 
     return last - first + 1
+arr = [1, 1, 2, 2, 2, 2]
+target = 2
 
+print(count_occurrences(arr, target))
